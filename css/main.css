@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(116,8,199);
+    background: linear-gradient(180deg, rgba(116,8,199,1) 0%, rgba(85,5,150,1) 41%);
+}
+.camposLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.iptLogin{
+    border: none;
+    width: 260px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(192, 192, 192);
+    outline: none;
+    padding: 0 0 0 2%;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.iptLogin::placeholder{
+    color: white;
+}
+.loginBlock{
+    padding: 2%;
+}
+.btnBlock{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.btnLogin{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    height: 6vh;
+    background: rgb(172,31,164);
+    background: linear-gradient(0deg, rgba(172,31,164,1) 36%, rgba(181,67,175,1) 73%);
+    color: white;
+    outline: none;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    position: relative;
+    z-index: 10;
+}
+.camposBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+}
+
+.waves{
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.ondaUm{
+    fill: rgba(220, 220, 220, 0.705);
+    animation: movimentar 3s ease-in-out infinite alternate;
+}
+.ondaDois{
+    fill: rgba(220, 220, 220, 0.548);
+    animation: movimentar2 4.4s ease-in-out infinite alternate;
+}
+.ondaTres{
+    fill: rgba(220, 220, 220, 0.37);
+    animation: movimentar3 5s ease-in-out infinite alternate;
+}
+
+@keyframes movimentar{
+    from{
+        transform: translateX(-200px);
+    }
+}
+@keyframes movimentar2{
+    from{
+        transform: translateX(-400px);
+    }
+}
+@keyframes movimentar3{
+    from{
+        transform: translateX(-460px);
+    }
+}

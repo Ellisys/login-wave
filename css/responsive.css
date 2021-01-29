@@ -1,0 +1,43 @@
+@media (min-width: 768px){
+    .camposBlock{
+        width: 40vw;;
+    }
+    .btnLogin{
+        height: 6vh;
+        margin-left: 1%;
+    }
+
+}
+
+
+@media (min-width: 1024px){
+    .camposBlock{
+        width: 30vw;;
+    }
+    .btnLogin{
+        height: 5vh;
+        margin-left: 1%;
+    }
+
+}
+@media (min-width: 1440px){
+    .camposBlock{
+        width: 23vw;;
+    }
+    .btnLogin{
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+}
+
+@media (min-width: 2560px){
+    .camposBlock{
+        width: 16vw;;
+    }
+    .btnLogin{
+        height: 5vh;
+        margin-left: 1%;
+    }
+
+}
