@@ -107,3 +107,11 @@ main{
         transform: translateX(-480px);
     }
 }
+
+
+.campo2{
+    position: fixed;
+    bottom:-200px;
+    transition: 3s;
+    z-index: 20;
+}
