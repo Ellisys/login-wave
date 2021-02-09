@@ -28,7 +28,10 @@
         height: 4vh;
         margin-left: 2%;
     }
-
+    .quadrado{
+        width: 20vw;
+        height: 24vh;
+    }
 }
 
 @media (min-width: 2560px){
