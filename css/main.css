@@ -94,11 +94,11 @@ main{
 }
 @keyframes movimentar2{
     from{
-        transform: translateX(-400px);
+        transform: translateX(-440px);
     }
 }
 @keyframes movimentar3{
     from{
-        transform: translateX(-460px);
+        transform: translateX(-480px);
     }
 }
