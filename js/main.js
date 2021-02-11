@@ -9,6 +9,9 @@ signUp.addEventListener("click", ()=>{
 
     if(window.screen.availWidth < 768){
         signUpBlock.style.bottom = "140px";
+        if(window.screen.availHeight < 380){
+            signUpBlock.style.bottom = "100px";
+        }
     }
 
     if(window.screen.availWidth >= 768){
@@ -23,8 +26,6 @@ signUp.addEventListener("click", ()=>{
         signUpBlock.style.bottom = "328px";
     }
 
-    
-
 })
 
 signIn.addEventListener("click", ()=>{
@@ -32,4 +33,7 @@ signIn.addEventListener("click", ()=>{
     signUpBlock.style.bottom = "-328px";
 })
 
-console.log(window.screen.availWidth)
+
+
+console.log("Largura: "+window.screen.availWidth)
+console.log("Altura: "+window.screen.availHeight)
