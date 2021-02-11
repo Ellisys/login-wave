@@ -11,8 +11,8 @@ main{
     align-items: center;
 }
 .quadrado{
-    width: 80vw;
-    height: 30vh;
+    width: 85vw;
+    height: 25vh;
     display: flex;
     background-color: black;
     justify-content: center;
@@ -76,7 +76,7 @@ main{
     left: 0;
     right: 0;
     bottom: 0;
-
+    
 }
 
 .ondaUm{
@@ -111,7 +111,8 @@ main{
 
 .campo2{
     position: fixed;
-    bottom:-200px;
+    bottom:-400px;
     transition: 3s;
     z-index: 20;
+    height: 80vw;
 }

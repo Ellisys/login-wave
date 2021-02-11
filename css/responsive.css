@@ -6,7 +6,12 @@
         height: 6vh;
         margin-left: 1%;
     }
-
+    .quadrado{
+        width: 45vw;
+    }
+    .campo2{
+        height: 36vh;
+    }
 }
 
 
@@ -17,6 +22,13 @@
     .btnLogin{
         height: 5vh;
         margin-left: 1%;
+    }
+    .quadrado{
+        width: 28vw;
+        height: 22vh;
+    }
+    .campo2{
+        height: 44vh;
     }
 
 }
@@ -31,6 +43,10 @@
     .quadrado{
         width: 20vw;
         height: 24vh;
+    }
+    .campo2{
+        bottom:-500px;
+        height: 30vh;
     }
 }
 
