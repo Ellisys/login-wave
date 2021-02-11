@@ -31,9 +31,13 @@ signIn.addEventListener("click", ()=>{
     signUpBlock.style.bottom = "-328px";
 })
 
-if(window.screen.availHeight < 380){
-    signUpBlock.style.bottom = "100px";
-}
+
+
+window.addEventListener("resize",()=>{
+    if(window.screen.availHeight < 380){
+        signUpBlock.style.bottom = "80px";
+    }
+})
 
 console.log("Largura: "+window.screen.availWidth)
 console.log("Altura: "+window.screen.availHeight)
