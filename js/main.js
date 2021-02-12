@@ -16,11 +16,11 @@ signUp.addEventListener("click", ()=>{
     }
 
     if(window.screen.availWidth >= 768){
-        signUpBlock.style.bottom = "120px";
+        signUpBlock.style.bottom = "300px";
     }
 
     if(window.screen.availWidth >= 1024){
-        signUpBlock.style.bottom = "160px";
+        signUpBlock.style.bottom = "320px";
     }
     
     if(window.screen.availWidth >= 1440){

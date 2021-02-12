@@ -8,9 +8,10 @@
     }
     .quadrado{
         width: 38vw;
+        height: 20vh;
     }
     .campo2{
-        height: 53vh;
+        height: 34vh;
     }
 }
 
@@ -28,7 +29,7 @@
         height: 22vh;
     }
     .campo2{
-        height: 44vh;
+        height: 30vh;
     }
 
 }
