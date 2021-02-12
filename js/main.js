@@ -42,7 +42,7 @@ window.addEventListener("resize", ()=>{
 
     mobileKeyboard = (window.innerHeight < initial_screen_size)
 
-    if(mobileKeyboard === true && cadOn == 1){
+    if(mobileKeyboard === true && cadOn == 1 && window.screen.availWidth <= 425){
         signUpBlock.style.bottom = "26px";
     }
     console.log(mobileKeyboard)
