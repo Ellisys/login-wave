@@ -1,11 +1,14 @@
 var signIn = document.getElementById("btnSignInCad");
 var signUp = document.getElementById("btnSignUp");
 var signUpBlock = document.getElementById("campo2");
-signIn.addEventListener("click", ()=>{
-    
-})
+var teste = document.getElementById("confirmEmail");
+var initial_screen_size = window.innerHeight;
+var mobileKeyboard = false;
+var cadOn = 0;
 
 signUp.addEventListener("click", ()=>{
+
+    cadOn = 1;
 
     if(window.screen.availWidth < 768){
         signUpBlock.style.bottom = "140px";
@@ -29,15 +32,23 @@ signUp.addEventListener("click", ()=>{
 signIn.addEventListener("click", ()=>{
     signUpBlock.style.transition = "2s";
     signUpBlock.style.bottom = "-328px";
+    cadOn = 0;
 })
 
 
 
-window.addEventListener("resize",()=>{
-    if(window.screen.availHeight < 380){
+
+window.addEventListener("resize", ()=>{
+
+    mobileKeyboard = (window.innerHeight < initial_screen_size)
+
+    if(mobileKeyboard === true && cadOn == 1){
         signUpBlock.style.bottom = "80px";
     }
+    console.log(mobileKeyboard)
 })
+
+
 
 console.log("Largura: "+window.screen.availWidth)
 console.log("Altura: "+window.screen.availHeight)
